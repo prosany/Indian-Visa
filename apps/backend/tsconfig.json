@@ -1,0 +1,15 @@
+{
+  "extends": "@quantum-network/types/base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "removeComments": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["node"]
+  },
+  "include": ["src/*", "src/**/*"],
+  "exclude": ["node_modules"],
+  "files": ["src/types/express.d.ts", "src/types/declaration.d.ts"]
+}
