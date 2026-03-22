@@ -4,14 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style.css" rel="stylesheet" />
-    <title>QuantumNetwork Captcha</title>
+    <link href="./fonts.css" rel="stylesheet" />
+    <title>Welcome - QNET Captcha</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline text-red-800">
-      Welcome to QuantumNetwork Captcha
-    </h1>
-    <p class="text-sm font-light">
-      This is a simple welcome page for the QuantumNetwork Captcha extension.
-    </p>
+
+  <body class="bg-white font-asap">
+    <div
+      class="max-w-md mx-auto min-h-screen flex flex-col justify-between p-6"
+    >
+      <div>
+        <div class="flex justify-center items-center gap-3 mb-6">
+          <img src="images/icon48.png" class="w-10 h-10 rounded-xl" />
+          <div>
+            <h1 class="text-base font-semibold">QNET Captcha</h1>
+            <p class="text-xs text-gray-400">Smart Automation System</p>
+          </div>
+        </div>
+
+        <div class="relative flex justify-center my-8">
+          <div
+            class="w-40 h-40 rounded-full bg-gradient-to-br from-fuchsia-400 to-fuchsia-900 opacity-20"
+          ></div>
+
+          <div
+            class="absolute top-10 w-64 bg-white rounded-xl shadow-lg p-4 flex items-center gap-3"
+          >
+            <div
+              class="w-10 h-10 rounded-full flex items-center justify-center bg-white"
+            >
+              <img src="images/icon48.png" class="w-9 h-9 rounded-xl" />
+            </div>
+
+            <div class="flex-1">
+              <div class="h-2 bg-fuchsia-100 rounded-full w-2/3 mb-2"></div>
+              <div class="h-2 bg-fuchsia-200 rounded-full w-full"></div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="text-center text-2xl font-semibold">Welcome to QNET ✨</h2>
+        <p class="text-center text-sm text-gray-500 mt-3 leading-relaxed">
+          Automatically fetch IVAC captchas in seconds. No manual input, no
+          delays — just seamless booking experience.
+        </p>
+        <div class="mt-8 space-y-2 grid grid-cols-2 gap-4">
+          <div class="flex items-start gap-3">
+            <div
+              class="w-6 h-6 rounded-full bg-fuchsia-100 flex items-center justify-center text-fuchsia-700 text-xs font-bold"
+            >
+              ✓
+            </div>
+            <p class="text-sm text-gray-600">Instant captcha retrieval</p>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div
+              class="w-6 h-6 rounded-full bg-fuchsia-100 flex items-center justify-center text-fuchsia-700 text-xs font-bold"
+            >
+              ✓
+            </div>
+            <p class="text-sm text-gray-600">Fully automated process</p>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div
+              class="w-6 h-6 rounded-full bg-fuchsia-100 flex items-center justify-center text-fuchsia-700 text-xs font-bold"
+            >
+              ✓
+            </div>
+            <p class="text-sm text-gray-600">Optimized for IVAC booking</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <div
+              class="w-6 h-6 rounded-full bg-fuchsia-100 flex items-center justify-center text-fuchsia-700 text-xs font-bold"
+            >
+              ✓
+            </div>
+            <p class="text-sm text-gray-600">
+              Everything is handled in background
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <button
+          class="w-full py-2 text-base rounded-xl text-white font-semibold bg-linear-to-br from-fuchsia-700 to-fuchsia-800 border border-fuchsia-900 hover:opacity-90 transition"
+        >
+          Get Started
+        </button>
+
+        <p class="text-center text-xs text-gray-400 mt-4">
+          Need Help or Assistance?
+          <span class="text-fuchsia-800 font-medium cursor-pointer">
+            Click Here
+          </span>
+        </p>
+      </div>
+    </div>
   </body>
 </html>

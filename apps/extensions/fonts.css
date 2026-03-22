@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Asap';
+  src: url('./fonts/asap.regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-asap {
+  font-family: 'Asap', sans-serif;
+}

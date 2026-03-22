@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "QNet Captcha",
+  "name": "QNET Captcha",
   "version": "1.0",
   "description": "Get solved captchas for indian visa application process.",
 
@@ -29,7 +29,7 @@
 
   "web_accessible_resources": [
     {
-      "resources": ["welcome.html", "welcome.js"],
+      "resources": ["welcome.html"],
       "matches": ["<all_urls>"]
     }
   ],

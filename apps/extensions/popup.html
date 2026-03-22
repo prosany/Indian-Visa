@@ -4,9 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style.css" rel="stylesheet" />
-    <title>PopUp</title>
+    <link href="./fonts.css" rel="stylesheet" />
+    <title>QNet Captcha</title>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+
+  <body class="min-w-85 bg-white rounded-2xl font-asap">
+    <div class="flex items-center gap-3 border-b pb-3 border-gray-200 p-4">
+      <img src="images/icon48.png" class="w-9 h-9 rounded-xl object-cover" />
+      <div>
+        <h1 class="text-sm font-semibold">QNET Captcha</h1>
+        <p class="text-xs text-gray-400">Get Captcha Instantly</p>
+      </div>
+    </div>
+
+    <div class="p-4">
+      <div class="relative flex justify-center my-6">
+        <div
+          class="w-32 h-32 rounded-full bg-linear-to-br from-fuchsia-400 to-fuchsia-900 opacity-20"
+        ></div>
+
+        <div
+          class="absolute top-8 w-57.5 bg-white rounded-xl shadow-lg p-3 flex items-center gap-3"
+        >
+          <div
+            class="w-9 h-9 rounded-full bg-white flex items-center justify-center"
+          >
+            <img
+              src="images/icon48.png"
+              class="w-9 h-9 rounded-xl object-cover"
+            />
+          </div>
+
+          <div class="flex-1">
+            <div class="h-2 bg-fuchsia-100 rounded-full w-2/3 mb-2"></div>
+            <div class="h-2 bg-fuchsia-200 rounded-full w-full"></div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-center text-lg font-semibold">You're ready to go ✨</h2>
+      <p class="text-center text-sm text-gray-500 mt-2 mb-4">
+        Instantly get IVAC captchas whenever needed, fully automated by QNET.
+      </p>
+
+      <button
+        class="w-full py-2 text-base rounded-xl text-white font-semibold bg-linear-to-br from-fuchsia-700 to-fuchsia-800 border border-fuchsia-900 hover:opacity-90 transition"
+      >
+        Let's Start
+      </button>
+
+      <p class="text-center text-xs text-gray-400 mt-4">
+        Need Help or Assistance?
+        <span class="text-fuchsia-800 font-medium cursor-pointer">
+          Click Here
+        </span>
+      </p>
+    </div>
   </body>
 </html>
