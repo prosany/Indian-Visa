@@ -1,5 +1,5 @@
-import QueryProvider from '@/lib/QueryProvider';
-import ReduxProvider from '@/lib/ReduxProvider';
+import QueryProvider from '@/provider/QueryProvider';
+import ReduxProvider from '@/provider/ReduxProvider';
 import { PropsWithChildren } from 'react';
 
 const CoreProviderLayout = ({ children }: PropsWithChildren) => {

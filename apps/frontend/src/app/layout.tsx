@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 import '@/styles/globals.css';
 import { publicSans } from '@/assets/fonts';
 import CoreProviderLayout from '@/layouts/CoreProviderLayout';
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from '@/components/ui/sonner';
 
 export const metadata: Metadata = {
   title: 'QNET - Intelligent Date Selection for Indian Visa!',
@@ -23,7 +23,7 @@ export default function RootLayout({
     >
       <body className='min-h-full flex flex-col'>
         <CoreProviderLayout>{children}</CoreProviderLayout>
-        <Toaster position='top-right' />
+        <Toaster />
       </body>
     </html>
   );
