@@ -4,6 +4,7 @@ import '@/styles/globals.css';
 import { publicSans } from '@/assets/fonts';
 import CoreProviderLayout from '@/layouts/CoreProviderLayout';
 import { Toaster } from '@/components/ui/sonner';
+import { TooltipProvider } from '@/components/ui/tooltip';
 
 export const metadata: Metadata = {
   title: 'QNET - Intelligent Date Selection for Indian Visa!',
@@ -22,7 +23,9 @@ export default function RootLayout({
       className={cn('h-full', 'antialiased', 'font-sans', publicSans.variable)}
     >
       <body className='min-h-full flex flex-col'>
-        <CoreProviderLayout>{children}</CoreProviderLayout>
+        <CoreProviderLayout>
+          <TooltipProvider>{children}</TooltipProvider>
+        </CoreProviderLayout>
         <Toaster />
       </body>
     </html>
